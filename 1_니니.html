@@ -20,38 +20,40 @@
 
     }
 
-    #menu1{
-      list-style:none;
-      margin:3px 10px;
-      padding:0 0 44px 0;
-      display: block;
-      border-bottom :2px dashed lightgrey;
-    }
 
-    #menu2{
-      font-family:"카페24 써라운드 에어";
-      font-color:black;
-      font-size :15px;
-      margin:10px;
-      padding:5px 0 0 0;
-      float : left;
-    }
+        #menu1{
+          list-style:none;
+          margin:3px 10px;
+          padding:0 0 44px 0;
+          display: block;
+          border-bottom :2px dashed lightgrey;
+        }
 
-    #title1{
-      list-style:none;
-      margin:5px 20px;
-      padding:20px 0 64px 0;
-      border-right :2px groove lightgrey;
-      width:150px;
-    }
+        #menu2{
+          font-family:"카페24 써라운드 에어";
+          font-color:black;
+          font-size :15px;
+          margin:10px;
+          padding:5px 0 0 0;
+          float : left;
+        }
 
-    .title2{
-      font-family:"카페24 써라운드 에어";
-      font-color:black;
-      font-size :15px;
-      margin:10px;
-      padding:5px 0 5px 0;
-    }
+        #title1{
+          list-style:none;
+          margin:5px 20px;
+          padding:20px 0 64px 0;
+          border-right :2px groove lightgrey;
+          width:150px;
+        }
+
+        .title2{
+          font-family:"카페24 써라운드 에어";
+          font-color:black;
+          font-size :15px;
+          margin:10px;
+          padding:5px 0 5px 0;
+        }
+
 
 
 
@@ -90,10 +92,10 @@
     }
 
     p{
-      font-size: 20px;
+      font-size: 18px;
       font-family:"Mapo꽃섬";
       text-align:center;
-      line-height:50px;
+      line-height:35px;
     }
     img{
       margin:0 auto;
@@ -101,7 +103,7 @@
 
     }
     #title{
-      font-size : 60px;
+      font-size : 30px;
       font-style :bold;
     }
     #poet{
@@ -111,6 +113,11 @@
     #grid{
       display :grid;
       grid-template-columns: 150px 1fr;
+    }
+
+    li #active{
+      font-color:pink;
+      color:pink;
     }
 
     </style>
@@ -128,7 +135,7 @@
 <div id="grid">
   <ul id="title1">
     <li class="title2"><a href="1_5분선생.html">가을시 _5분선생</a></li>
-    <li class="title2"><a href="1_니니.html">가을하늘 _니니</a></li>
+    <li class="title2" id="active"><a href="1_니니.html">가을하늘 _니니</a></li>
     <li class="title2"><a href="1_쪽파.html">가을과 너 _쪽파</a></li>
     <li class="title2"><a href="1_광부.html">모닝 커피 _광부</a></li>
     <li class="title2"><a href="1_미남.html">간다 _미남</a></li>
@@ -137,12 +144,21 @@
   </ul>
 
 
-
-
   <div>
-    <p ><br>첫번째 이야기,</p>
-    <p id="title">가을</p>
-    <p id="al">좌측 메뉴에서 보고싶은 시를 클릭해주세요.</p>
+    <p id="title"><br>가을하늘</p>
+    <p id="poet">니니</p>
+    <p >누군가 내게<br>
+조금만 소홀하다고 <br>
+마음 상해하고 서운해하기엔<br>
+인생의 아름다운 순간은  <br>
+너무나 짧다. <br><br>
+
+찰나에 스쳐지나가는 가을처럼 <br><br>
+
+그러니 우리<br>
+스스로를 아프게 하려할때면<br>
+하늘을 보자<br>
+평화로운 가을하늘을. <br><br><br><br></p>
   </div>
 </div>
   </body>
